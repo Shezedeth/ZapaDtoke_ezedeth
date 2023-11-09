@@ -3,6 +3,16 @@
 .home__header {
   text-align: center;
 }
+.home__header__nav--menu a {
+  color: red;
+  font-family: 'Play', sans-serif;
+  transition: all 0.8s;
+}
+.home__header__nav--menu a:hover {
+  color: rgb(72, 0, 255);
+  font-size: 20px;
+
+}
 
 .home__header--box-logo {
   margin: 15px auto 30px;
@@ -24,7 +34,6 @@
 }
 
 .home__header__nav--menu ul li {
-  background-color: var(--colorGris);
   text-transform: uppercase;
   margin-bottom: 1px;
   padding: 8px 0;
@@ -52,6 +61,8 @@
   width: 100%;
   height: 300px;
   object-fit: cover;
+  border-top-left-radius: 219px 57px;
+  border-bottom-right-radius: 186px 65px;
 }
 
 .home__main__section__article--sticker {
@@ -71,9 +82,9 @@
 }
 
 .home__main__section__article--title {
-  margin: 20px 0;
+  margin: 13px 0px 0px 5px;
   font-weight: 900;
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -122,6 +133,7 @@
   .home__header__nav--menu ul {
     display: flex;
     justify-content: space-between;
+    background: #2b2b2b;
   }
 
   .home__header__nav--menu ul li {
@@ -168,7 +180,13 @@
   .home__header__nav--menu ul li {
     font-size: 1rem;
     height: 50px;
-    padding: 11px;
+    padding: 11px 0px 0px 0px;
+    margin: 12px 0px 13px 0px;
+    /* border: solid 1px rgb(255 255 255 / 0%); */
+    border-top-left-radius: 91px 73px;
+    border-bottom-right-radius: 62px 65px;
+    /* background: #1200ff82; */
+    /* color: black; */
   }
 
   /* MAIN */
@@ -195,6 +213,7 @@
     height: 489px;
     margin: 10px 0px 10px 0px;
     border-radius: 25px;
+    border-top-left-radius: 219px 57px;
   }
 
   .home__main--whatsapp {
