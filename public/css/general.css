@@ -22,7 +22,10 @@ ul {
   padding: 0;
 }
 body {
-  background-image: url('/img/bg-body.png');
+  background-image: url('/img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: 'Roboto';
   margin: 0 10px;
   max-width: 1180px;
