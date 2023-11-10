@@ -4,7 +4,7 @@ module.exports = {
     index : (req,res) => {   
         
         db.Product.findAll({
-            include : ['images']
+            include : ['category','section','images']
         })
             .then(products => {
                 

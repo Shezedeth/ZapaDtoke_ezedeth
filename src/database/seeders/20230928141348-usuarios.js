@@ -12,8 +12,9 @@ module.exports = {
           email: "admin@gmail.com",
           password:
             "$2a$10$qJuExDMLCE/91ynBq8ToBu9upl0FEmozvSJGcrHoDFiEQiLMs30hm",
+            // Abc123+
           roleId: 1,
-          birthday: null,
+          birthday: '2003-03-27 00:00:00',
           createdAt : new Date,
           updatedAt : new Date,
         },
@@ -24,7 +25,7 @@ module.exports = {
           password:
             "$2a$10$qJuExDMLCE/91ynBq8ToBu9upl0FEmozvSJGcrHoDFiEQiLMs30hm",
           roleId: 1,
-          birthday: null,
+          birthday: '2001-12-08 00:00:00',
           createdAt : new Date,
           updatedAt : new Date,
         },
@@ -35,7 +36,18 @@ module.exports = {
           password:
             "$2a$10$qJuExDMLCE/91ynBq8ToBu9upl0FEmozvSJGcrHoDFiEQiLMs30hm",
           roleId: 2,
-          birthday: null,
+          birthday: '1991-06-21 00:00:00',
+          createdAt : new Date,
+          updatedAt : new Date,
+        },
+        {
+          name: "Metalero",
+          surname: "Pesado",
+          email: "Metal@gmail.com",
+          password:
+            "$2a$10$qJuExDMLCE/91ynBq8ToBu9upl0FEmozvSJGcrHoDFiEQiLMs30hm",
+          roleId: 1,
+          birthday: '1992-06-17 00:00:00',
           createdAt : new Date,
           updatedAt : new Date,
         },

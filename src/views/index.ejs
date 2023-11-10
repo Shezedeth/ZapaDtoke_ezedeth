@@ -19,12 +19,12 @@
                 </div>
                 <div class="home__main__section--products">
 
-                    <% products.forEach(({title, description, id, images,section},index)=> { %>
+                    <% products.forEach(({title, description, id, images,section,category},index)=> { %>
                         <article class="home__main__section__article" data-aos="zoom-in-<%= index % 2 === 0 ? 'up' : index % 3 === 0 ? 'left' : 'right'%>" data-aos-duration="500">
                             <div class="home__main__section__article--box">
                                 <img class="home__main__section__article--image"
                                     src="/img/products/<%= images.find(image => image.main).file %>" alt="producto1">
-                                <a class="home__main__section__article--zoom" href="">AMPLIAR FOTO</a>
+                                <a class="home__main__section__article--zoom" href=""><%= category.name %></a>
                             </div>
                             <h4 class="home__main__section__article--title">
                                 <%= title %>
@@ -49,7 +49,7 @@
                                                 src="/img/products/<%= image %>" alt=""></a>
                                         <div class="card-body">
     
-                                            <p class="card-title">Ensalada tanto...</p>
+                                            <p class="card-title">...</p>
     
                                         </div>
                                     </div>
