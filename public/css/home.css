@@ -4,14 +4,13 @@
   text-align: center;
 }
 .home__header__nav--menu a {
-  color: red;
-  font-family: 'Play', sans-serif;
+  color: #ccc;
+  font-family: "Play", sans-serif;
   transition: all 0.8s;
 }
 .home__header__nav--menu a:hover {
-  color: rgb(72, 0, 255);
+  color: rgb(155, 116, 252);
   font-size: 20px;
-
 }
 
 .home__header--box-logo {
@@ -134,6 +133,8 @@
     display: flex;
     justify-content: space-between;
     background: #2b2b2b;
+    padding: 0px;
+    margin: 0px;
   }
 
   .home__header__nav--menu ul li {
@@ -146,7 +147,7 @@
 
   .home__main__section--banner {
     display: block;
-    margin-top: 20px;
+    /* margin-top: -18px; */
   }
 
   .home__main__section--banner img {
@@ -155,8 +156,9 @@
 
   .home__main__section--products {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 10px;
   }
 
   .home__main__section__article {
@@ -190,6 +192,7 @@
   }
 
   /* MAIN */
+
   .home__main__section__article--description {
     padding: 15px 0px 20px 0px;
     height: 120px;
@@ -208,9 +211,9 @@
   }
 
   .home__main__section__article {
-    width: 32%;
+    width: 25%;
     background: #000000a3;
-    height: 535px;
+    height: 540px;
     margin: 10px 0px 10px 0px;
     border-radius: 25px;
     border-top-left-radius: 219px 57px;
@@ -218,6 +221,44 @@
 
   .home__main--whatsapp {
     right: 100px;
+  }
+  .detalle__main {
+    width: 100%;
+    background: black;
+  }
+  .detalle__main__container {
+    /* width: 100%; */
+    border: solid 1px blue;
+  }
+  .detalle__main__container__box {
+    /* width: 100%; */
+    border: solid 1px rgb(255, 0, 179);
+  }
+  .detail__card-container {
+  
+width: 100%;
+  
+padding: 0px 0px 0px 10px;
+  }
+  .detail__card-container-imagenesSecundarias {
+  
+width: 100%;
+  
+gap: 10px;
+  }
+  .detail__container__imagenPrincipal {
+  
+/* width: 100%; */
+  }
+  .detailImagen {
+  
+width: 50%;
+  }
+  .detail__card {
+  
+  }
+  .detail__card__box {
+  
   }
 
   /* FOOTER */

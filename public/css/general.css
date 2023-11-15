@@ -27,8 +27,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Roboto';
-  margin: 0 10px;
-  max-width: 1180px;
+  /* margin: 0 10px; */
+  /* max-width: 1180px; */
 }
 
 @media (min-width: 1180px) {
